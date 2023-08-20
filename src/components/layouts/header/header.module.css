@@ -1,0 +1,30 @@
+.header{
+    background-color:#1E1E2A;
+    position: fixed;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.container {
+    max-width: 1060px;
+    margin: auto;
+    width: 100%;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+@media screen and (max-width : 426px){
+    .container{
+        max-width: 425px;
+    }
+}
+@media screen and (max-width : 769px) {
+    .container{
+        max-width: 768px;
+    }
+}
